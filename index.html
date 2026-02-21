@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Master</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #faf8fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(92, 61, 127, 0.8);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        nav {
+            margin-top: 100px;
+            background-color: #5c3d7f;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 80px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            background-color: white;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #5c3d7f;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #5c3d7f;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #5c3d7f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h4 {
+            margin-top: 15px;
+            color: #5c3d7f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Modern Master</h1>
+    <p>Innovation and Excellence in Every Craft</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Modern Master</h2>
+    <p>
+        Modern Master is dedicated to providing the best in craftsmanship and innovation, specializing in high-end design and technology solutions. We believe in delivering excellence and precision in every project, ensuring that our clients receive the best quality and service.
+    </p>
+    <p>
+        Our team is composed of highly skilled professionals with a passion for excellence. We bring together the latest technology and creative design to bring your ideas to life.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="grid-container">
+        <div class="card">
+            <img src="path/to/image.jpg" alt="Service Image">
+            <h4>Custom Design Solutions</h4>
+            <p>We create bespoke designs tailored to meet your specific needs and preferences.</p>
+        </div>
+        <div class="card">
+            <img src="path/to/image.jpg" alt="Service Image">
+            <h4>Technology Integration</h4>
+            <p>Bringing the latest technology to enhance your business and services.</p>
+        </div>
+        <div class="card">
+            <img src="path/to/image.jpg" alt="Service Image">
+            <h4>Consultation & Strategy</h4>
+            <p>Providing expert advice to help you achieve your business goals.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+    <p>
+        Check out some of our most successful and innovative projects, where we applied creativity, cutting-edge technology, and design expertise to deliver exceptional results.
+    </p>
+    <div class="grid-container">
+        <div class="card">
+            <img src="path/to/project.jpg" alt="Project Image">
+            <h4>Project One</h4>
+            <p>Details about the first project and its impact.</p>
+        </div>
+        <div class="card">
+            <img src="path/to/project.jpg" alt="Project Image">
+            <h4>Project Two</h4>
+            <p>Details about the second project and its benefits.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+        Have a question or need more information? Contact us today to discuss your project needs.
+    </p>
+    <p>Email: <a href="mailto:info@modernmaster.com">info@modernmaster.com</a></p>
+    <p>Phone: +123-456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Modern Master | Crafted with care and precision</p>
+</footer>
+
+</body>
+</html>
